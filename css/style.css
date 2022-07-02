@@ -1,24 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
-.header__title{
+.header__title {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: center;
     background-color: black;
-    height: 142px;
+    align-items: center;
+    height: 150px;
 }
 
-#img__head{
-    padding-top: 20px;
-    padding-left: 200px;
-}
 .link__head{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4%;
     color: white;
-   cursor: pointer;
+    cursor: pointer;
 }
