@@ -14,6 +14,7 @@
 }
 
 .link__head{
+    font-size: 19px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,3 +22,31 @@
     color: white;
     cursor: pointer;
 }
+
+.button__head{
+    font-size: 19px;
+    display: flex;
+    background-color: red;
+    border-radius: 7px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.box__main{
+    background-color: #333;
+    height: 550px;
+}
+.main__pag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img__center{
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+
