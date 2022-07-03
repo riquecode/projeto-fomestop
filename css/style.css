@@ -45,8 +45,23 @@
     justify-content: center;
 }
 .img__center{
+    display: flex;
     margin-top: 15px;
     border-radius: 7px;
+}
+
+.box__short{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 800px;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-bottom: 40px;
 }
 
 
