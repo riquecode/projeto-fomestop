@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header__title {
@@ -53,6 +54,7 @@
 .box__short{
     font-size: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: red;
@@ -61,7 +63,15 @@
     margin-left: 25%;
     margin-top: 20px;
     border-radius: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 30pzpx;
+}
+
+.icons__short{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    margin-top: 10px;
 }
 
 
